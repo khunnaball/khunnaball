@@ -12,7 +12,6 @@
     "@nuxt/content": "^1.15.1",
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sitemap": "^2.4.0",
-    "@tailwindcss/typography": "^0.5.0",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
     "prism-themes": "^1.9.0"
@@ -21,6 +20,9 @@
     "@nuxtjs/color-mode": "^2.1.1",
     "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/tailwindcss": "^4.0.1",
-    "postcss": "^8.2.8"
+    "@tailwindcss/typography": "^0.5.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.16"
   }
 }
