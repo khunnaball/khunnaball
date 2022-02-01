@@ -39,7 +39,7 @@ export default {
     },
     head() {
     return {
-        title: `${this.post.title} - `,
+        title: `${this.post.title} • khunnaball`,
         meta: [
             {
                 hid: 'description',
@@ -66,7 +66,7 @@ export default {
             {
                 hid: 'og:title',
                 property: 'og:title',
-                content: `${this.post.title} - Corner of Progress`,
+                content: `${this.post.title}`,
             },
             {
                 hid: 'og:description',

@@ -24,7 +24,7 @@
     </ul>
 
     <ul class="">
-      <li v-for="post in posts" :key="post.title" class="py-4">
+      <li v-for="post in posts" :key="post.title" class="p-4">
         <AppPostCard :post="post" />
       </li>
     </ul>

@@ -21,7 +21,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'khunnaball blog',
+    title: 'khunnaball • blog',
     htmlAttrs: {
       lang: 'en'
     },

@@ -24,7 +24,7 @@
     </main>
 
     <footer class="text-center py-5 text-gray-500 text-sm">
-      <p>© 2021–{{ $moment().format('YYYY') }} Kieran Hunnaball</p>
+      <p> <a href="https://github.com/khunnaball">khunnaball</a></p>
     </footer>
   </div>
 </template>

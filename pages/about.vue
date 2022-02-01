@@ -17,7 +17,7 @@ export default {
     },
     head() {
         return {
-            title: 'About -',
+            title: 'About • khunnaball',
         }
     },
 }
