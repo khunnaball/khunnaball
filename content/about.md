@@ -17,6 +17,6 @@ I love anything music and I basically made this blog to just talk about music al
 * Twitter - [kieranhunnaball](https://twitter.com/kieranhunnaball)
 * Discord - kie#0001
 
-This site is built with [Nuxt.js](https://nuxtjs.org), for those of you that care the source code will be on my github [here](https://github.com/khunnaball).
+This site is built with [Nuxt.js](https://nuxtjs.org), for those of you that care the source code will be on my github [here](https://github.com/khunnaball/blog).
 
 The design is based on Alistar's blog so be sure to check him out [here](https://twitter.com/alistaiiiir) if you like it!
