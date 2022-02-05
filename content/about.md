@@ -6,7 +6,7 @@ title: About - khunnaball.dev/blog
 
 Hi, I'm Kieran Hunnaball 👋.
 
-I'm a backend developer from the UK and welcome to my blog were I talk about all things music, development and anything I'm interested in really!
+I'm a backend developer from the UK and welcome to my blog where I talk about all things music, development and anything I'm interested in really!
 
 I love anything music and I basically made this blog to just talk about music all the time to people who may care?
 
