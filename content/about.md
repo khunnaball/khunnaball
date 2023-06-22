@@ -6,10 +6,13 @@ title: About - khunnaball.dev/blog
 
 Hi, I'm Kieran Hunnaball 👋.
 
-I'm a backend developer from the UK and welcome to my blog where I talk about all things music, development and anything I'm interested in really!
+I'm a backend developer from the UK and welcome to my site!
 
-I love anything music and I basically made this blog to just talk about music all the time to people who may care?
+I work mainly with PHP and JS but I am very interesting in languages like Python, Go, Rust etc.
 
+I also am very interested in Cyber Security and Network Security as well as playing guitar and music theory!
+
+Please feel free to check out my blog where I talk about all things music, development and anything I'm interested in really!
 
 ## Contact
 
