@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div>
-            <a class="text-blue-500 dark:text-neutral-400 hover:text-blue-800 dark:hover:text-neutral-600" href="../">../</a>
+        <div class="flex mb-4">
+            <BackNavigation />
         </div>
         <NuxtContent class="prose max-w-none prose-blue prose-img:rounded-md prose-img:w-full dark:prose-invert my-4" :document="about"/>
     </div>

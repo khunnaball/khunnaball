@@ -1,45 +1,10 @@
 <template>
   <main className="space-y-8">
-    <ul class="flex mb-4">
-      <li class="px-4">
-        <span class="text-purple-400">
-          ~/blog
-        </span>
-      </li>
-      <li class="px-4">
-        <NuxtLink to="about" class="nav-link" aria-label="About page">
-          /about
-        </NuxtLink>
-      </li>
-      <li class="px-4">
-        <a 
-        target="_blank"
-        href="https://github.com/khunnaball/"
-        class="nav-link"
-        rel="noreferrer"
-        >
-          /github
-        </a>
-      </li>
-    </ul>
+    <NavBar />
 
-    <ul class="">
-      <li v-for="post in posts" :key="post.title" class="p-4">
-        <AppPostCard :post="post" />
-      </li>
-    </ul>
+  <div>
+    <h1 class="text-purple-400 text-4xl mt-40">Kieran Hunnaball</h1>
+    <p class="text-base"><span class="text-purple-400">></span> Backend Developer</p>
+  </div>
   </main>
 </template>
-
-<script>
-export default {
-  async asyncData ({ $content }) {
-    const posts = await $content('posts')
-      .only(['title', 'description', 'createdAt', 'slug'])
-      .sortBy('createdAt', 'desc')
-      .fetch()
-
-    return { posts }
-  }
-}
-</script>

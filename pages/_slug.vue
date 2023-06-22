@@ -1,7 +1,7 @@
 <template>
     <article>
         <div>
-            <a class="text-blue-500 dark:text-neutral-400 hover:text-blue-800 dark:hover:text-neutral-600" href="../">../</a>
+            <BackNavigation :link="link"/>
         </div>
         <header class="mx-auto text-left pb-10">
             <dl>
@@ -27,6 +27,11 @@
 
 <script>
 export default {
+    data() {
+        return {
+        link: '/blog',
+        };
+    },
     async asyncData({ $content, params, error }) {
     const post = await $content('posts')
         .where({ slug: params.slug })

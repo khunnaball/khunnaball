@@ -2,7 +2,7 @@
   <article>
     <dl>
       <dt class="sr-only">Published on</dt>
-      <dd class="font-medium text-purple-400 text-xs">
+      <dd class="font-medium text-purple-400 text-base">
         <time :datetime="post.createdAt">
           {{ $moment(post.createdAt).format('DD-MM-YYYY') }}
         </time>
@@ -10,7 +10,7 @@
     </dl>
     <div class="space-y-5">
       <NuxtLink :to="post.slug" :aria-label="`Read - ${post.title}`">
-        <h2 class="text-xl font-bold tracking-tight text-white-900">
+        <h2 class="text-2xl font-bold tracking-tight text-white-900">
           {{ post.title }}
         </h2>
       </NuxtLink>
