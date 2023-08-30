@@ -8,7 +8,7 @@ Hi, I'm Kieran Hunnaball 👋.
 
 I'm a backend developer from the UK and welcome to my site!
 
-I work mainly with PHP and JS but I am very interesting in languages like Python, Go, Rust etc.
+I work mainly with PHP and JS but I am very interested in many other languages like Python, Go, Rust etc.
 
 I also am very interested in Cyber Security and Network Security as well as playing guitar and music theory!
 
