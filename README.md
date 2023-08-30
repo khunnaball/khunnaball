@@ -1,4 +1,4 @@
-# blog
+# Personal Website
 
 ## Build Setup
 
